@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>window.location</title>
+</head>
+<body>
+  <div class="form">
+	<form id="form-inline" action="profile.html" method ="get" onsubmit="return validation()">
+		<div class="form-group">
+			<label>Your Name:</label>
+			<input id="name" class="form-control" type="text" name="name">
+			<span id="validateName"></span>
+	    </div>
+		<div class="form-group">
+			<label>Your Age:</label>
+			<input id="age" class="form-control" type="text" name="age">
+			<span id="validateAge"></span>
+	    </div>
+		<div class="form-group">
+			<label>Your Hobbies:</label>
+			<!--!<input  type="text" name="hobbies">-->
+			<select id="hobbies" class="form-control" onchange="validation();">
+                <option value="Reading">Reading</option>
+  				<option value="Swimming">Swimming</option>
+  				<option value="Climbing">Climbing</option>
+  				<option value="Diving">Diving</option>
+  				<option value="Coding">Coding</option>
+			</select><br>
+			<span id="validateHobbies"></span>
+	    </div>
+		<div id="gender" class="form-group">
+			<label>Your Gender:</label>
+			  <div>
+			  	  Male
+			     <input type="radio" value="Male" id="male" name="type">
+			  </div>
+			  <div>
+			  	  Female
+				 <input type="radio" value="Female" id="female" name="type">
+			  </div>
+	    </div>
+		<div class="form-group">
+			<label>Your Image:</label>
+			<div class="imageBox">
+			   <input id="image" class="form-control" type="file" name="image">
+			   <span id="validateImage"></span>
+		    </div>
+	    </div>
+	    <input type="submit" id="submit" value="Submit">
+	</form>
+  </div>
+  <span id="results"></span>
+  <div id="profile"><div class="photo"></div></div>
+   <script src="form.js"></script> 
+</body>
+</html>
