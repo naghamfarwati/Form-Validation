@@ -1,0 +1,61 @@
+body{
+	text-align: center;
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #4b4e51;
+}
+
+.form{
+  text-align: -webkit-center;
+}
+
+#form-inline{
+  padding: 20px;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  background-color: rgba(255,250,255,0.6);
+}
+
+label{
+  font-size: 3em;
+  display: block;
+}
+
+.form-control{
+	width: 40%;
+	height: 3rem;
+  margin-bottom: 20px;
+  border-radius: 9px;
+  padding-top: 8px;
+}
+
+#image, .form-control{
+  width: 200px;
+}
+
+#validateName, #validateAge, #validateHobbies, #validateImage{
+  display: block;
+}
+
+.imageBox{
+  display: block;
+ margin-right: 26%;
+ margin-left: 28%;
+}
+
+#submit{
+  margin-right: 40px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  width:10rem;
+  height: 40px;
+  border-radius: 9px;
+}
+
+#results{
+  color: white;
+}
