@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #4b4e51;
+}
+
+#mainBox{
+  text-align: center;
+  position: relative;
+  width:60%;
+  z-index: 2;
+  background-color: rgba(255,250,255,0.6);
+  left: 20%;
+  height: 60%;
+  margin-top: 2%;
+  padding: 20px;
+}
+
+#results{
+  text-align: center;
+}
+
+#reset{
+  width:10rem;
+  height: 40px;
+  border-radius: 9px;
+  margin-top: 40px;
+  color: #4b4e51;
+  font-size: medium;
+  font: cursive;
+}
+
+h2{
+  background-color: white;
+  width: 60%;
+  height: 5rem;
+  padding-top: 8px;
+  position: relative;
+  margin-left: 20%;
+  font-family: sans-serif;
+  border-radius: 9px;
+  box-shadow: 2px 2px 2px #c7e1ea;
+}
+
